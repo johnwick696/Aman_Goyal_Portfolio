@@ -1,0 +1,83 @@
+body {
+    padding-top: 56px;
+    font-family: 'Roboto', sans-serif;
+    overflow-y: scroll;
+}
+
+.jumbotron {
+    background: url('header-bg.jpg') center center / cover no-repeat;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background: #333;
+    color: #fff;
+}
+
+[data-aos] {
+    visibility: hidden;
+}
+
+[data-aos].aos-animate {
+    visibility: visible;
+}
+
+.lead{
+    color: white;
+}
+.lead h2{
+    color: whitesmoke;
+}
+.lead p{
+    color: grey;
+}
+.lead h3{
+    color: whitesmoke;
+}
+.lead a{
+    color: white;
+}
+#about{
+    background-color: #ADD8E6;
+}
+#projects{
+    background-color: #CCCCFF;
+}
+#contact{
+    background-color: #E1EBEE;
+}
+body{
+    background-color: #B0C4DE;
+}
+.skills{
+    /* background-color: white; */
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 80px;
+}
+.skills a{
+    color:#333;
+}
+.socialmedia{
+    background-color: #E1EBEE;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    height: 70px;
+    width: 1145px;
+}
